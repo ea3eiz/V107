@@ -7,6 +7,6 @@ Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;
 Terminal=false
-Name[es_ES]=Editar HBLINK
+Name[es_ES]=Servidor HBLINK
 Hidden=false
 X-KeepTerminal=true
