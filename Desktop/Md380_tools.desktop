@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+TryExec=lxterminal
+Exec=sh -c "cd /home/pi/V106; ./qt_editor_md380tools"
+Icon=/home/pi/V106/ICONO_MD380TOOLS1.png
+Type=Application
+StartupNotify=false
+Categories=GTK;Utility;TerminalEmulator;
+Terminal=false
+Name[es_ES]=MD380 TOOLS
+Hidden=false

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Editar DMR2M17
+Comment=
+Exec=sh -c "cd /home/pi/V106;./qt_editor_dmr2m17"
+Icon=/home/pi/V106/Editar_repeater.png
+Path=/home/pi/V106
+Terminal=false
+StartupNotify=false
