@@ -35,7 +35,7 @@ do
 clear
                         ejecutar1=S
                         case $ejecutar1 in
-                        [sS]* ) echo ""
+                        [sS]* ) echo " "
                         echo ">>>>>>>>> ACTUALIZANDO >>>>>>>>"
                         sudo rm -r /home/pi/V107/DV4MINI/
                         cd /home/pi/V107
@@ -44,7 +44,7 @@ clear
                         sudo rm /usr/bin/dv_serial
                         sudo mkdir /home/pi/dv4mini
                         sudo chmod 777 -R /home/pi/dv4mini
-                        cd /home/pi/V107/DV4MINI/2020_03_03
+                        cd /home/pi/V107/DV4MINI/20200303
                         sudo cp dv_serial /home/pi/dv4mini
                         sudo cp dv4mini.exe /home/pi/dv4mini
                         sudo cp xref.ip /home/pi/dv4mini
