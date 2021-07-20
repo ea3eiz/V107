@@ -21,7 +21,7 @@ sleep 3
 
 # Desactiva DVSWITCH 
 sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
-cd /home/pi/V106
+cd /home/pi/V107
 sh stop_dvswitch.sh
 
 # pone marca en ON porque se está utilizando DVSWITCH
@@ -67,7 +67,7 @@ cd /home/pi/DMR2NXDN
 
 sudo lxterminal --geometry=75x12 -e ./DMR2NXDN DMR2NXDN.ini & 
 cd /home/pi/MMDVMHost
-#/home/pi/V106/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
+#/home/pi/V107/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
 sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
 
 cd /home/pi/NXDNClients/NXDNGateway
@@ -124,7 +124,7 @@ cd /home/pi/DMR2NXDN
 
 sudo lxterminal --geometry=75x12 -e ./DMR2NXDN DMR2NXDN.ini & 
 cd /home/pi/MMDVMHost
-#/home/pi/V106/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
+#/home/pi/V107/./qt_info_dmr2nxdn & sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
 sudo lxterminal --geometry=75x12 -e ./DMR2NXDN MMDVMDMR2NXDN.ini &
 cd /home/pi/NXDNClients/NXDNGateway
 sudo ./NXDNGateway NXDNGateway.ini

@@ -16,24 +16,24 @@ GRIS="\033[0m"
 MARRON="\33[38;5;138m"
 
 
-                        # Actualiza V106
+                        # Actualiza V107
                         
-                        #cd /home/pi/V106/Desktop
+                        #cd /home/pi/V107/Desktop
                         #cp * /home/pi/Desktop
 
 
 
                         cd /home/pi/.local
-                        git clone http://github.com/ea3eiz/V106 
+                        git clone http://github.com/ea3eiz/V107 
                         sleep 2
-                        if [ -d /home/pi/.local/V106 ]
+                        if [ -d /home/pi/.local/V107 ]
                         then
-                        sudo rm -R /home/pi/V106
-                        cp -R /home/pi/.local/V106 /home/pi                        
+                        sudo rm -R /home/pi/V107
+                        cp -R /home/pi/.local/V107 /home/pi                        
                         cd /home/pi
-                        sudo chmod 777 -R V106
+                        sudo chmod 777 -R V107
                         cd /home/pi/.local
-                        sudo rm -R V106
+                        sudo rm -R V107
                         else
                         clear
                         echo "${VERDE}"
@@ -48,18 +48,18 @@ MARRON="\33[38;5;138m"
                         exit
                         fi
 
-                        # Actualiza AUTORRANQUEV106
+                        # Actualiza AUTORRANQUEV107
                         cd /home/pi/.local
-                        git clone http://github.com/ea3eiz/AUTOARRANQUEV106 
+                        git clone http://github.com/ea3eiz/AUTOARRANQUEV107 
                         sleep 2                      
-                        if [ -d /home/pi/.local/AUTOARRANQUEV106 ]
+                        if [ -d /home/pi/.local/AUTOARRANQUEV107 ]
                         then
-                        sudo rm -R /home/pi/AUTOARRANQUEV106
-                        cp -R /home/pi/.local/AUTOARRANQUEV106 /home/pi   
+                        sudo rm -R /home/pi/AUTOARRANQUEV107
+                        cp -R /home/pi/.local/AUTOARRANQUEV107 /home/pi   
                         cd /home/pi                    
-                        sudo chmod 777 -R AUTOARRANQUEV106
+                        sudo chmod 777 -R AUTOARRANQUEV107
                         cd /home/pi/.local
-                        sudo rm -R AUTOARRANQUEV106
+                        sudo rm -R AUTOARRANQUEV107
                         else
                         echo "Error de red"
                         exit
@@ -69,70 +69,70 @@ MARRON="\33[38;5;138m"
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla2 /home/pi/.local
+                        cp /home/pi/V107/regla2 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla3 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla3 /home/pi/.local
+                        cp /home/pi/V107/regla3 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla4 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla4 /home/pi/.local
+                        cp /home/pi/V107/regla4 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla5 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla5 /home/pi/.local
+                        cp /home/pi/V107/regla5 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla6 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla6 /home/pi/.local
+                        cp /home/pi/V107/regla6 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla7 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla7 /home/pi/.local
+                        cp /home/pi/V107/regla7 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla8 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla8 /home/pi/.local
+                        cp /home/pi/V107/regla8 /home/pi/.local
                         fi
                         
                         if [ -f /home/pi/.local/regla9 ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/regla9 /home/pi/.local
+                        cp /home/pi/V107/regla9 /home/pi/.local
                         fi
 
                         if [ -f /home/pi/.local/reglaxlx ]
                         then
                         echo ""
                         else
-                        cp /home/pi/V106/reglaxlx /home/pi/.local
+                        cp /home/pi/V107/reglaxlx /home/pi/.local
                         fi
 
                         
                         
                         # modificacion 26-04-2021
-                        cp /home/pi/V106/pararservicios_hblink.sh /home/pi
-                        cp /home/pi/V106/pararservicios_hblink.desktop /home/pi/.config/autostart
+                        cp /home/pi/V107/pararservicios_hblink.sh /home/pi
+                        cp /home/pi/V107/pararservicios_hblink.desktop /home/pi/.config/autostart
                         sudo chmod 777 /home/pi/pararservicios_hblink.sh
                         sudo chmod 777 /home/pi/.config/autostart/pararservicios_hblink.desktop 
                         
@@ -180,105 +180,105 @@ MARRON="\33[38;5;138m"
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_bm /home/pi/.local/
+#cp /home/pi/V107/memoria_bm /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_dmrplus ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_dmrplus /home/pi/.local/
+#cp /home/pi/V107/memoria_dmrplus /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_radio ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_radio /home/pi/.local/
+#cp /home/pi/V107/memoria_radio /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_especial ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_especial /home/pi/.local/
+#cp /home/pi/V107/memoria_especial /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_solofusion ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_solofusion /home/pi/.local/
+#cp /home/pi/V107/memoria_solofusion /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_solo_dstar ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_solo_dstar /home/pi/.local/
+#cp /home/pi/V107/memoria_solo_dstar /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_ysf2dmr ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_ysf2dmr /home/pi/.local/
+#cp /home/pi/V107/memoria_ysf2dmr /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_dmr2ysf ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_dmr2ysf /home/pi/.local/
+#cp /home/pi/V107/memoria_dmr2ysf /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_dmr2nxdn ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_dmr2nxdn /home/pi/.local/
+#cp /home/pi/V107/memoria_dmr2nxdn /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memoria_nxdn ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memoria_nxdn /home/pi/.local/
+#cp /home/pi/V107/memoria_nxdn /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/memorias ] 
 #then
 #echo ""
 #else
-#cp /home/pi/V106/memorias /home/pi/.local/
+#cp /home/pi/V107/memorias /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/nextion_bm ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/nextion_bm /home/pi/.local/
+#cp /home/pi/V107/nextion_bm /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/oled_bm ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/oled_bm /home/pi/.local/
+#cp /home/pi/V107/oled_bm /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/nextion_plus ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/nextion_plus /home/pi/.local/
+#cp /home/pi/V107/nextion_plus /home/pi/.local/
 #fi
 #
 #if [ -f /home/pi/.local/oled_plus ]
 #then
 #echo ""
 #else
-#cp /home/pi/V106/oled_plus /home/pi/.local/
+#cp /home/pi/V107/oled_plus /home/pi/.local/
 #fi
 
                         #Lee el fichero INFO_RXF para poner los datos en los iconos INFO TXF 
@@ -315,4 +315,4 @@ MARRON="\33[38;5;138m"
                         sudo rm $usuario/RXF_NXDN.desktop
 
 clear
-/home/pi/V106/./qt_imagen_actualizada
+/home/pi/V107/./qt_imagen_actualizada

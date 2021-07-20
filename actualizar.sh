@@ -7,10 +7,10 @@ xfdesktop --reload
 # path usuario
 usuario="/home/pi"
 usuario="$usuario"
-SCRIPTS_version="V106"
+SCRIPTS_version="V107"
 actualizacion=$(awk "NR==1" /home/pi/.config/autostart/actualizacion)
 
-version="V106-"
+version="V107-"
 version=$version$actualizacion
 
 hblink=$(awk "NR==14" /home/pi/info.ini)
@@ -272,7 +272,7 @@ rm $usuario/RXF_DMRGATEWAY.desktop
 sudo chmod 777 -R $usuario/Desktop
 sleep 2
 
-sudo rm -R /home/pi/V106/associacioader.com
-sudo rm -R /home/pi/V106/Desktop/associacioader.com
-sudo rm /home/pi/V106/Desktop/st-data
+sudo rm -R /home/pi/V107/associacioader.com
+sudo rm -R /home/pi/V107/Desktop/associacioader.com
+sudo rm /home/pi/V107/Desktop/st-data
 sudo rm /home/pi/Desktop/st-data

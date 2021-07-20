@@ -1,8 +1,8 @@
 [Desktop Entry]
 Encoding=UTF-8
 TryExec=lxterminal
-Exec=sh -c "cd /home/pi/V106;./qt_editor_dmrplus"
-Icon=/home/pi/V106/ICONO_EDITAR_DMRPLUS.png
+Exec=sh -c "cd /home/pi/V107;./qt_editor_dmrplus"
+Icon=/home/pi/V107/ICONO_EDITAR_DMRPLUS.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

@@ -1,5 +1,5 @@
 #!/bin/bash
-/home/pi/V106/./nextiondriver_desactivar
+/home/pi/V107/./nextiondriver_desactivar
 # path usuario
 usuario="/home/pi"
 usuario=$(awk "NR==1" $usuario/.config/autostart/usuario)

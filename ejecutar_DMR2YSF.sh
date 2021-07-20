@@ -8,7 +8,7 @@
 #sudo systemctl stop md380-emu.service
 #sudo systemctl stop mmdvm_bridge.service
 #sudo systemctl stop nxdngateway.service
-##/home/pi/V106/./dvswitch_desactivado
+##/home/pi/V107/./dvswitch_desactivado
 #sed -i "18c DVSWITCH=OFF" /home/pi/status.ini
 
 
@@ -59,7 +59,7 @@ cd /home/pi/DMR2YSF
 
 sudo lxterminal --geometry=77x12 -e ./DMR2YSF DMR2YSF.ini & 
 cd /home/pi/MMDVMHost
-#/home/pi/V106/./qt_info_dmr2ysf & sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
+#/home/pi/V107/./qt_info_dmr2ysf & sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
 sudo ./YSFGateway YSFGateway.ini

@@ -1,5 +1,5 @@
 #!/bin/bash
-/home/pi/V106/./qt_info_radio
+/home/pi/V107/./qt_info_radio
 #DIRECTORIO="MMDVM.ini"
 ##linea_info_memoria="313" #Linea del MMDVM donde guardamos el nombre de la memoria
 #
@@ -48,7 +48,7 @@
 #sudo sed -i "6c Address:    $address" /home/pi/.local/memoria_radio
 #sudo sed -i "7c Memoria:      $memoria" /home/pi/.local/memoria_radio
 #
-#/home/pi/V106/./qt_info_radio
+#/home/pi/V107/./qt_info_radio
 
 #Colores 
 #ROJO="\033[1;31m"

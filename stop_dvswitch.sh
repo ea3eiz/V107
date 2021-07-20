@@ -24,9 +24,9 @@ sudo systemctl stop md380-emu.service
 sudo systemctl stop mmdvm_bridge.service
 sudo systemctl stop nxdngateway.service
 
-#zenity --info --ok-label= --title=DVSWITCH --window-icon=/home/pi/V106/ICONO_DVSWITCH_OFF.png --width=400 --timeout=5 --text "\n\n\nDVSWITCH DESACTIVADO"
+#zenity --info --ok-label= --title=DVSWITCH --window-icon=/home/pi/V107/ICONO_DVSWITCH_OFF.png --width=400 --timeout=5 --text "\n\n\nDVSWITCH DESACTIVADO"
 
-/home/pi/V106/./qt_dvswitch_desactivado
-cd /home/pi/V106
+/home/pi/V107/./qt_dvswitch_desactivado
+cd /home/pi/V107
 sudo sh cerrar_solodstar.sh
 sudo sh cerrar_ircDDB.sh

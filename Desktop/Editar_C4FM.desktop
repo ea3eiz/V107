@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=sh -c "cd /home/pi/V106; ./qt_editor_ysf_fcs_ycs"
-Icon=/home/pi/V106/ICONO_EDITAR_YSF.png
+Exec=sh -c "cd /home/pi/V107; ./qt_editor_ysf_fcs_ycs"
+Icon=/home/pi/V107/ICONO_EDITAR_YSF.png
 Type=Application
 StartupNotify=false
 Categories=GTK;Utility;TerminalEmulator;

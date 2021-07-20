@@ -69,7 +69,7 @@ sudo cp hblink-SAMPLE.cfg hblink.cfg
 sudo cp rules-SAMPLE.py rules.py
 
 #Autostart HBLink:
-sudo cp /home/pi/V106/hblink.service /lib/systemd/system/
+sudo cp /home/pi/V107/hblink.service /lib/systemd/system/
 
 sudo systemctl daemon-reload
 sudo systemctl enable hblink
@@ -81,7 +81,7 @@ sudo chmod +x playback.py
 sudo mkdir /var/log/hblink
 
 #Crear servicio para el parrot /lib/systemd/system/parrot.service 
-sudo cp /home/pi/V106/parrot.service /lib/systemd/system/
+sudo cp /home/pi/V107/parrot.service /lib/systemd/system/
 
 sudo systemctl enable parrot.service
 sudo systemctl start parrot.service
@@ -109,12 +109,12 @@ sudo cp config_SAMPLE.py config.py
 #sudo nano /opt/HBmonitor/config.py
 
 sleep 2
-sudo cp /home/pi/V106/hblink.cfg /opt/HBlink3/
-sudo cp /home/pi/V106/rules.py /opt/HBlink3/
-sudo cp /home/pi/V106/index_template.html /opt/HBmonitor/
-sudo cp /home/pi/V106/monitor.py /opt/HBmonitor/
-sudo cp /home/pi/V106/bridge_table.html /opt/HBmonitor/templates/
-sudo cp /home/pi/V106/hblink_table.html /opt/HBmonitor/templates/
+sudo cp /home/pi/V107/hblink.cfg /opt/HBlink3/
+sudo cp /home/pi/V107/rules.py /opt/HBlink3/
+sudo cp /home/pi/V107/index_template.html /opt/HBmonitor/
+sudo cp /home/pi/V107/monitor.py /opt/HBmonitor/
+sudo cp /home/pi/V107/bridge_table.html /opt/HBmonitor/templates/
+sudo cp /home/pi/V107/hblink_table.html /opt/HBmonitor/templates/
 
 #Start monitor service:
 sudo cp utils/hbmon.service /lib/systemd/system/

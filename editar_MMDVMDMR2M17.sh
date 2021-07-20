@@ -554,7 +554,7 @@ do
                           case $actualizar in
                           [sS]* ) echo ""
 sh Puertos_MMDVMDMR2M17.sh
-#/home/pi/V106/./qt_puertos_modem_dmr2m17
+#/home/pi/V107/./qt_puertos_modem_dmr2m17
                           break;;
                           [nN]* ) echo ""
                           break;;
@@ -1217,7 +1217,7 @@ do
                           actualizar=S 
                           case $actualizar in
                           [sS]* ) echo ""
-#sudo sh /home/pi/V106/dstname_m17.sh
+#sudo sh /home/pi/V107/dstname_m17.sh
 $usuario/$SCRIPTS_version/./qt_reflectores_m17
 
 

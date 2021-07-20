@@ -76,7 +76,7 @@ url=$(awk "NR==19" /home/pi/.local/regla2) #tu URL preferida ej: www.associacioa
 sudo sed -i "241c DESCRIPTION: This is a cool Hotspot" /opt/HBlink3/hblink.cfg #no tocar
 sudo sed -i "242c URL: $url" /opt/HBlink3/hblink.cfg						                        
 sudo sed -i "243c SOFTWARE_ID: 20191001" /opt/HBlink3/hblink.cfg #no tocar
-sudo sed -i "244c PACKAGE_ID: HBLINK_V106" /opt/HBlink3/hblink.cfg #no tocar
+sudo sed -i "244c PACKAGE_ID: HBLINK_V107" /opt/HBlink3/hblink.cfg #no tocar
 sudo sed -i "245c GROUP_HANGTIME: 5" /opt/HBlink3/hblink.cfg #no tocar
 options=$(awk "NR==8" /home/pi/.local/regla2) #Options ej: Brandmeister = #Options / DMR+ ej: StartRef=437X;RelinkTime=15;
 sudo sed -i "246c OPTIONS: $options" /opt/HBlink3/hblink.cfg
