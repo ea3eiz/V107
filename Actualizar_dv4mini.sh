@@ -99,20 +99,6 @@ clear
                         break;;
 esac
 done;;
-3) echo ""
-while true
-do
-clear
-                        ejecutar1=S
-                        case $ejecutar1 in
-                        [sS]* ) echo ""
-                        cd /home/pi/V107
-                        ./qt_instalar_hblink_NEW
-                        break;;
-                        [nN]* ) echo ""
-                        break;;
-esac
-done;;
 0) echo ""
 clear
 echo "\33[1;33m   ******************************"
