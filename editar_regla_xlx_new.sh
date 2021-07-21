@@ -35,12 +35,6 @@ sudo sed -i "122c {'SYSTEM': '$master', 'TS': 2, 'TGID': $tgid, 'ACTIVE': False,
 sudo sed -i "123c {'SYSTEM': '$ref', 'TS': 2, 'TGID': $tgid, 'ACTIVE': True, 'TIMEOUT': 10, 'TO_TYPE': 'NONE',  'ON': [$tgid], 'OFF': [], 'RESET': []}," /opt/HBlink3/rules.py
 sudo sed -i "124c {'SYSTEM': '$ref', 'TS': 2, 'TGID': $tgidsalir, 'ACTIVE': True, 'TIMEOUT': 10, 'TO_TYPE': 'NONE',  'ON': [], 'OFF': [], 'RESET': []}," /opt/HBlink3/rules.py
                                                                                               
-                     
-sudo sed -i "110c ]," /opt/HBlink3/rules.py
-sudo sed -i "111c '$ref': [ " /opt/HBlink3/rules.py 
-sudo sed -i "113c {'SYSTEM': '$ref', 'TS': 2, 'TGID': $tgidsalir, 'ACTIVE': True, 'TIMEOUT': 2, 'TO_TYPE': 'NONE',  'ON': [], 'OFF': [], 'RESET': []}," /opt/HBlink3/rules.py
-
-
 sudo sed -i "1020c [$ref] " /opt/HBlink3/hblink.cfg
 sudo sed -i "1021c MODE: PEER" /opt/HBlink3/hblink.cfg # no tocar
 sudo sed -i "1022c ENABLED: True" /opt/HBlink3/hblink.cfg # no tocar
