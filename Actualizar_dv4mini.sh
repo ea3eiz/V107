@@ -35,7 +35,7 @@ do
 clear
                         ejecutar1=S
                         case $ejecutar1 in
-                        [sS]* ) echo " "
+                        [sS]* ) echo ""
                         echo ">>>>>>>>> ACTUALIZANDO >>>>>>>>"
                         sudo rm -r /home/pi/V107/DV4MINI/
                         cd /home/pi/V107
