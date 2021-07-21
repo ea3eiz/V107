@@ -36,7 +36,7 @@ clear
                         ejecutar1=S
                         case $ejecutar1 in
                         [sS]* ) echo ""
-                        echo ">>>>>>>>> ACTUALIZANDO >>>>>>>>"
+                        echo ">>>>>>>>> ACTUALIZANDO DV4MINI >>>>>>>>"
                         sudo rm -r /home/pi/V107/DV4MINI/
                         cd /home/pi/V107
                         git clone http://github.com/ea3eiz/DV4MINI
