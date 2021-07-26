@@ -62,7 +62,7 @@ cd /home/pi/MMDVMHost
 #/home/pi/V107/./qt_info_dmr2ysf & sudo lxterminal --geometry=77x18 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 sudo lxterminal --geometry=88x19 --title=MMDVMDMR2YSF -e ./DMR2YSF MMDVMDMR2YSF.ini &
 cd /home/pi/YSFClients/YSFGateway
-sudo lxterminal --geometry=77x19 -e ./YSFGateway YSFGateway.ini
+sudo ./YSFGateway YSFGateway.ini
 
 cd /home/pi/Desktop
 sudo cp Abrir_DMR2YSF.desktop /home/pi
