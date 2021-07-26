@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 sudo killall DMR2YSF
 sudo killall YSFGateway
 
