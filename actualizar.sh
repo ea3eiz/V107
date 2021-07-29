@@ -21,7 +21,7 @@ hblink=$largo
 
 
 
-
+sed -i "4c Name=Activar Puente 21465" /home/pi/Desktop/Lanzar_puente.desktop
 sed -i "7c Icon=/home/pi/V107/ICONO_DMR_CENTRAL.png" /home/pi/Desktop/Lanzar_puente.desktop
 sed -i "6c Exec=sh lanzar_puente_21465.sh" /home/pi/Desktop/Lanzar_puente.desktop
 
