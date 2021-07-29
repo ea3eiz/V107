@@ -17,6 +17,19 @@ hblink=$(awk "NR==14" /home/pi/info.ini)
 largo=`expr substr $hblink 1 6`
 hblink=$largo
 
+
+
+
+
+
+sed -i "7c Icon=/home/pi/V107/ICONO_DMR_CENTRAL.png" /home/pi/Desktop/Lanzar_puente.desktop
+sed -i "6c Exec=sh lanzar_puente_21465.sh" /home/pi/Desktop/Lanzar_puente.desktop
+
+
+
+
+
+
 #pone todos los status de inicio en OFF
 sed -i "1c D-STAR=OFF" $usuario/status.ini
 sed -i "2c BlueDV=OFF" $usuario/status.ini
@@ -263,6 +276,12 @@ sed -i "11c Name=$frecuencia" $usuario/RXF_DMRGATEWAY.desktop
 cd $usuario
 cp RXF_DMRGATEWAY.desktop $usuario/Desktop
 rm $usuario/RXF_DMRGATEWAY.desktop
+
+
+
+
+
+
 
 
 
