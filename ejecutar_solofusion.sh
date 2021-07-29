@@ -40,7 +40,7 @@ echo "                          ABRIENDO SOLO FUSION                            
 echo " **************************************************************************"
 sleep 2
 cd /home/pi/YSFClients/YSFGateway
-sudo lxterminal --geometry=77x12 -e ./YSFGateway YSFGateway.ini & 
+sudo lxterminal --geometry=88x12 -e ./YSFGateway YSFGateway.ini & 
 cd /home/pi/MMDVMHost
 #/home/pi/V107/./qt_info_solofusion & sudo ./MMDVMFUSION MMDVMFUSION.ini
 sudo ./MMDVMFUSION MMDVMFUSION.ini
