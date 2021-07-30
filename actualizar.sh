@@ -17,18 +17,9 @@ hblink=$(awk "NR==14" /home/pi/info.ini)
 largo=`expr substr $hblink 1 6`
 hblink=$largo
 
-
-
-
-
 sed -i "4c Name=Activar Puente 21465" /home/pi/Desktop/Lanzar_puente.desktop
 sed -i "7c Icon=/home/pi/V107/ICONO_DMR_CENTRAL.png" /home/pi/Desktop/Lanzar_puente.desktop
 sed -i "6c Exec=sh lanzar_puente_21465.sh" /home/pi/Desktop/Lanzar_puente.desktop
-
-
-
-
-
 
 #pone todos los status de inicio en OFF
 sed -i "1c D-STAR=OFF" $usuario/status.ini
@@ -41,7 +32,7 @@ sed -i "7c MMDVMBM=OFF" $usuario/status.ini
 sed -i "8c SVXLINK=OFF" $usuario/status.ini
 sed -i "9c dstarrepeater=OFF" $usuario/status.ini
 sed -i "10c MMDVMLIBRE=OFF" $usuario/status.ini
-sed -i "11c AMBE_SERVER=OFF" $usuario/status.ini
+se vd -i "11c AMBE_SERVER=OFF" $usuario/status.ini
 sed -i "12c SOLOFUSION=OFF" $usuario/status.ini
 sed -i "13c SOLODSTAR=OFF" $usuario/status.ini
 sed -i "14c YSF2DMR=OFF" $usuario/status.ini
