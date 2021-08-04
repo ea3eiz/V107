@@ -17,10 +17,6 @@ MARRON="\33[38;5;138m"
                         echo "*********************************************************************************"
                         echo "*********************************************************************************"
 
-rm -R /opt/HBlink3
-rm -R /opt/HBmonitor
-
-
 echo "${MARRON}"
 sudo apt update
 sudo apt install python3-distutils
