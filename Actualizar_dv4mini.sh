@@ -99,6 +99,19 @@ clear
                         break;;
 esac
 done;;
+3) echo ""
+while true
+do
+clear
+                        ejecutar1=S
+                        case $ejecutar1 in
+                        [sS]* ) echo ""
+sh reinstalar_hblink.sh
+                        break;;
+                        [nN]* ) echo ""
+                        break;;
+esac
+done;;
 0) echo ""
 clear
 echo "\33[1;33m   ******************************"
