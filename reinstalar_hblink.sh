@@ -124,6 +124,15 @@ echo "*******************  LA REINSTALACIÓN HA FINALIZADO CON EXITO  **********
 echo "*********************************************************************************"
 echo "*********************************************************************************"
 sed -i "14c HBLINK_INSTALADO=ON" /home/pi/info.ini 
+sed -i "22c 22" /home/pi/info.ini
+sed -i "23c 23" /home/pi/info.ini
+sed -i "24c 24" /home/pi/info.ini
+sed -i "25c 25" /home/pi/info.ini
+sed -i "26c 26" /home/pi/info.ini
+sed -i "27c 27" /home/pi/info.ini
+sed -i "28c 28" /home/pi/info.ini
+sed -i "29c 29" /home/pi/info.ini
+sed -i "30c 30" /home/pi/info.ini
 sleep 5
 exit
 
