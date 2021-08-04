@@ -17,6 +17,10 @@ MARRON="\33[38;5;138m"
                         echo "*********************************************************************************"
                         echo "*********************************************************************************"
 
+sudo rm -R /opt/HBlink3
+sudo rm -R /opt/HBmonitor
+
+
 echo "${MARRON}"
 sudo apt update
 sudo apt install python3-distutils
@@ -98,11 +102,6 @@ sudo cp /home/pi/V107/index_template.html /opt/HBmonitor/
 sudo cp /home/pi/V107/monitor.py /opt/HBmonitor/
 sudo cp /home/pi/V107/bridge_table.html /opt/HBmonitor/templates/
 sudo cp /home/pi/V107/hblink_table.html /opt/HBmonitor/templates/
-
-
-sudo chmod +x -R /opt/HBlink3
-sudo chmod +x -R /opt/HBmonitor
-
 
 #Start monitor service:
 sudo cp utils/hbmon.service /lib/systemd/system/
