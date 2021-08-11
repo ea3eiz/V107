@@ -100,6 +100,7 @@ sudo cp /home/pi/V107/hblink.cfg /opt/HBlink3/
 sudo cp /home/pi/V107/rules.py /opt/HBlink3/
 sudo cp /home/pi/V107/playback.cfg /opt/HBlink3/
 sudo cp /home/pi/V107/index_template.html /opt/HBmonitor/
+sudo cp /home/pi/V107/config.py /opt/HBmonitor/
 sudo cp /home/pi/V107/monitor.py /opt/HBmonitor/
 sudo cp /home/pi/V107/bridge_table.html /opt/HBmonitor/templates/
 sudo cp /home/pi/V107/hblink_table.html /opt/HBmonitor/templates/
