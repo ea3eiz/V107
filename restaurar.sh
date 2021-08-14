@@ -282,6 +282,18 @@ cd /home/pi/.local/COPIA_SEGURIDAD/Downloads
             cp -f MMDVMDMR2M17.ini /home/pi/MMDVMHost/
             cp -f DMR2M17.ini /home/pi/DMR2M17/
 
+cp -f info.ini /home/pi/
+
+cp -f regla2 /home/pi/.local/
+cp -f regla3 /home/pi/.local/
+cp -f regla4 /home/pi/.local/
+cp -f regla5 /home/pi/.local/
+cp -f regla6 /home/pi/.local/
+cp -f regla7 /home/pi/.local/
+cp -f regla8 /home/pi/.local/
+cp -f regla9 /home/pi/.local/
+cp -f reglaxlx /home/pi/.local/            
+
 indicativo=$(awk "NR==1" /home/pi/.local/COPIA_SEGURIDAD/Downloads/datos_dvswitch)          
 sudo sed -i "2c Callsign=$indicativo" /opt/MMDVM_Bridge/MMDVM_Bridge.ini
 sudo sed -i "2c Callsign=$indicativo" /opt/MMDVM_Bridge/brandmeister_esp.ini

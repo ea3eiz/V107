@@ -100,7 +100,19 @@
             cp -f /home/pi/DMRGateway/DMRGateway.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
 
             cp -f /home/pi/MMDVMHost/MMDVMDMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
-            cp -f /home/pi/DMR2M17/DMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads            
+            cp -f /home/pi/DMR2M17/DMR2M17.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads  
+
+cp -f /home/pi/info.ini /home/pi/.local/COPIA_SEGURIDAD/Downloads
+
+cp -f /home/pi/.local/regla2 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla3 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla4 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla5 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla6 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla7 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla8 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/regla9 /home/pi/.local/COPIA_SEGURIDAD/Downloads
+cp -f /home/pi/.local/reglaxlx /home/pi/.local/COPIA_SEGURIDAD/Downloads                     
 
 indicativo=$(awk "NR==2" /opt/MMDVM_Bridge/MMDVM_Bridge.ini)
 indicativo=`expr substr $indicativo 10 6`
