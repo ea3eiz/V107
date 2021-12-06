@@ -1,5 +1,6 @@
 ﻿#!/bin/bash
                     cd /home/pi
+                    sudo cp -R MMDVmhost /home/pi/.local/
                     sudo rm -r /home/pi/MMDVMHost
                     sudo apt-get install build-essential git-core libi2c-dev i2c-tools lm-sensors
                     git clone https://github.com/g4klx/MMDVMHost
@@ -97,5 +98,8 @@
                     sed -i "231c LocalPort=62032" /home/pi/MMDVMHost/MMDVMDMR2YSF.ini
                     sed -i "231c LocalPort=62032" /home/pi/MMDVMHost/MMDVMDMR2NXDN.ini
                     sed -i "231c LocalPort=62037" /home/pi/MMDVMHost/MMDVMDMR2M17.ini
+
+
+                    sudo cp -R /home/pi/.local/MMDVMHost /home/pi/
                 
                     exit;
