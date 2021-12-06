@@ -97,8 +97,5 @@
                     sed -i "231c LocalPort=62032" /home/pi/MMDVMHost/MMDVMDMR2YSF.ini
                     sed -i "231c LocalPort=62032" /home/pi/MMDVMHost/MMDVMDMR2NXDN.ini
                     sed -i "231c LocalPort=62037" /home/pi/MMDVMHost/MMDVMDMR2M17.ini
-
-                    # Recoge el fichero TODOS_LOS_INIS.ini para ponerlo en el MMDVMHost
-                    cp /home/pi/TODOS_LOS_INIS.ini /home/pi/MMDVMHost
                 
                     exit;
