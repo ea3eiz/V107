@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
                     cd /home/pi
-                    #sudo cp -R MMDVMHost /home/pi/.local/
-                    #sudo rm -r /home/pi/MMDVMHost
+                    #sudo cp -R MMDVMHost /home/pi/.local/ 
+                    sudo rm -r /home/pi/MMDVMHost
                     sudo apt-get install build-essential git-core libi2c-dev i2c-tools lm-sensors
                     git clone https://github.com/g4klx/MMDVMHost
                     cd MMDVMHost
