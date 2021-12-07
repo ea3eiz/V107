@@ -99,7 +99,6 @@
                     sed -i "231c LocalPort=62032" /home/pi/MMDVMHost/MMDVMDMR2NXDN.ini
                     sed -i "231c LocalPort=62037" /home/pi/MMDVMHost/MMDVMDMR2M17.ini
 
-
                     sudo chmod 777 -R /home/pi/MMDVMHost
                 
                     exit;
